@@ -58,3 +58,41 @@ nav {
     top: 3px;
     left: 10px;
 }
+
+.catalogoP {
+    color: palevioletred;
+    font-size: 30px;
+}
+
+#catalogoGeneral {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#catalogoGeneral section {
+    width: 30%;
+    border: solid;
+    border-color: rgb(223, 108, 127);
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.globosT {
+    color: palevioletred;
+}
+
+.precioG {
+    font-size: 17px;
+}
+
+.botonCompra {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(223, 108, 127);
+}
+
+.botonCompra:hover {
+    color: black;
+}
